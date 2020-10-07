@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>First scene</title>
+    <link rel="stylesheet" href="css\style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div style="background-color: black; color: red; ">
+        <span id="fps_count">0</span>
+    </div>
+    <canvas id="canvas"></canvas>
+
+
+
+      <div id="loading">
+        <div>
+          <div>...loading...</div>
+          <div class="progress"><div id="progressbar"></div></div>
+        </div>
+      </div>
+
+    <script src="lib\three.min.js" ></script>
+    <script src="lib\dat.gui.min.js" ></script>
+    <script type="module" src="script.js" ></script>
+
+</body>
+</html>
